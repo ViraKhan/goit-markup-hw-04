@@ -55,6 +55,16 @@ display: flex;
 align-items: flex-start;
 gap: 40px;
 }
+.header-nav-list:first-child {
+ color: #404bbf;
+}
+.header-nav-list:first-child::after {
+  display: block;
+  border-radius: 2px;
+width: 48px;
+height: 4px;
+color: #404bbf;
+}
 
 .header-nav-list:last-child {
   margin-right: 0;
@@ -278,6 +288,27 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+.member-social {
+  display: flex;
+  justify-content: center;
+ column-gap: 24px;
+}
+.member-social-link {
+  display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  fill: #f4f4fd;
+  margin-top: 8px;
+}
+
+.member-social-link:hover {
+  background-color: #404BBF;
+
+}
 /*Section 4*/
 .portfolio-section {
 display: flex;
@@ -297,7 +328,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 margin-bottom: 72px;
-
 }
 .portfolio-section-list {
 margin-top: 72px;
@@ -366,6 +396,11 @@ color: #434455;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.social-icons-list {
+  display: flex;
+  justify-content: center;
+ column-gap: 16px;
+}
 .social-footer-descr {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -373,14 +408,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-}
-
-.social-icons {
-  border-radius: 50%;
-  background-color: #4D5AE5;
-  display: flex;
+display: flex;
 align-items: flex-start;
 justify-content: space-between;
-flex-direction: row;
-gap: 16px;
+
+}
+.social-list-link {
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #4D5AE5;
+}
+.social-list-link:hover {
+  background-color: #31D0AA;
 }
