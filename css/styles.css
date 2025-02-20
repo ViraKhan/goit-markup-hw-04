@@ -137,11 +137,11 @@ background-color: #404BBF;
 .section-hero {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/bg-image.jpg');
 background-size: cover;  /* Ensures the image covers the whole screen */
-background-position: center; /* Centers the image */
 background-repeat: no-repeat; /* Prevents tiling */
 text-align: center;
 padding: 188px 0;
 max-width: 1440px;
+background-position: center;
 }
 
 .hero-section-header {
@@ -299,6 +299,9 @@ display: flex;
 justify-content: center;
 gap: 24px;
 }
+.member-list-item {
+
+}
 .member-social-link {
 display: flex;
 align-items: center;
@@ -311,7 +314,8 @@ fill: #f4f4fd;
 margin-top: 8px;
 }
 
-.member-social-link:hover {
+.member-social-link:hover 
+.member-social-link:focus {
   background-color: #404BBF;
 
 }
