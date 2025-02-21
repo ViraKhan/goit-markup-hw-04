@@ -358,7 +358,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
-  box-shadow: 0px 2px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-hover-text {
@@ -377,10 +377,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-image-container:hover, 
-.portfolio-hover-text {
+.portfolio-image-container:hover {
   transform: translateY(0%);
 }
+
 
 .list-portf-content {
   padding: 32px 16px;
@@ -430,6 +430,11 @@ color: #434455;
 
 .paragraph {
   margin-right: 120px;
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
 }
 .section-footer-descr {
   max-width: 264px;
@@ -451,6 +456,13 @@ list-style: none;
   width: 40px;
   height: 40px;
  
+}
+.social-icons-logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
 }
 .social-footer-descr {
 font-weight: 500;
