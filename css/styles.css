@@ -426,6 +426,10 @@ color: #434455;
 .section-footer .container {
   display: flex;
   align-items: baseline;
+  flex-direction: row;
+}
+.section-footer .container .paragraph {
+  flex-direction: column;
 }
 
 .paragraph {
@@ -461,7 +465,7 @@ list-style: none;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   gap: 16px;
 }
 .social-footer-descr {
@@ -470,7 +474,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #ffffff;
-margin-bottom: 16px;
+
 }
 .social-list-link {
 display: flex;
