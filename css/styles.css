@@ -338,6 +338,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 36px;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-section-list {
@@ -434,11 +435,11 @@ color: #434455;
 
 .paragraph {
   margin-right: 120px;
-  display: flex;
+ /* display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 16px;
+gap: 16px;*/
 }
 .section-footer-descr {
   max-width: 264px;
@@ -462,11 +463,11 @@ list-style: none;
  
 }
 .social-icons-logo {
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 16px;
+  gap: 16px;*/
 }
 .social-footer-descr {
 font-weight: 500;
